@@ -160,9 +160,8 @@ body {
 }
 
 .square {
-    top: 50px;
-    bottom: 150px;
-    right: 800px;
+    top: 3em;
+    right: 50em;
     position: absolute;
     background-color: #1C171D;
     width: 300px;
@@ -226,9 +225,9 @@ body {
 }
 
 .square-2 {
-    top: 60px;
+    top: 4em;
     bottom: 150px;
-    right: 470px;
+    right: 30em;
     position: absolute;
     background-color: #1C171D;
     width: 300px;
@@ -238,9 +237,8 @@ body {
 }
 
 .square-3 {
-    top: 75px;
-    bottom: 150px;
-    right: 138px;
+    top: 5em;
+    right: 10em;
     position: absolute;
     background-color: #1C171D;
     width: 300px;
@@ -303,26 +301,16 @@ body {
     margin-bottom: 100px;
 }
 
-
 .splide {
     max-width: 800px; 
     margin: 0 auto; 
     float: right;
     margin-top: 30px;
-    margin-right: 200px;
-}
-
-.splide__list {
-    margin: 0; 
-    padding: 0; 
+    margin-right: 12em;
 }
 
 .splide__slide {
-    max-width: 100%;
-}
-
-.splide__track {
-    display: flex; 
+    width: 100%;
 }
 
 .splide__slide img {
@@ -811,3 +799,26 @@ body {
 .forgot-password:hover {
     text-decoration: underline;
 }
+
+.go-back-arrow-icon {
+    height: 30px;
+    cursor: pointer;
+}
+
+.go-back-section {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 8px;
+    translate: -0.2em 0;
+}
+
+.go-back {
+    cursor: pointer;
+}
+
+.go-back:hover {
+    text-decoration: underline;
+}   
+

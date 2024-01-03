@@ -2,10 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
     new Splide('.splide', {
         rewind     : true,
         type       : 'fade',
-        heightRatio: 0.5,
         autoplay   : true,  
         interval   : 3000,
-        pagination: false
+        pagination: false,
     }).mount();
 });
 
